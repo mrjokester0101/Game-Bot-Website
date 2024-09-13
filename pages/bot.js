@@ -22,34 +22,27 @@ const Home = () => {
         <div className={styles.buttons}>
           <button
             className={styles.button}
-            onClick={() => window.location.href = 'https://mrjokester.vercel.app/'}>
+            onClick={() => window.location.href = 'https://discordgamebot.vercel.app/'}>
             <h2>Main Page</h2>
           </button>
           <button
             className={styles.button}
-            onClick={() => window.location.href = 'https://mrjokester.vercel.app/me'}>
+            onClick={() => window.location.href = 'https://discordgamebot.vercel.app/bot'}>
             <h2>About Me</h2>
-          </button>
-          <button
-            className={styles.button}
-            onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
-            <h2>BDFD Snippets</h2>
           </button>
         </div>
   
           <div className={styles.aboutme}>
 <h2>1. Introduction</h2>
-<p>   • Name: MrJokester</p>
+<p>   • Name: Game Bot</p>
+<p>   • Has Slash Cmds: Yes</p>
+<p>   • Modmail: No</p>
+<p>   • Verified: No</p>
+<p>   • Designed with: BDScript</p>
+
+<h2> 2. Owner Information</h2>
+<p>   • Name: mrjokester0101</p>
 <p>   • Age: 13 years old</p>
-<p>   • Gender: Male</p>
-<p>   • Hobbies: Coding, Designing Games</p>
-<p>   • Country: Bulgaria</p>
-
-<h2>2. Skills</h2>
-<p>   • Technical Skills: Javascript, Python,</p>
-<p>     CSS, Json, HTML, BDScript</p>
-
-<h2>3. Contact Information</h2>
 <p>   • Email: mrjokester0101@gmail.com</p>
           </div>
   
