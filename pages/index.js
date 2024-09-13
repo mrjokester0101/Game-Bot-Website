@@ -7,7 +7,7 @@ const Home = () => {
     <div className={styles.all}>
       <div className={styles.container}>
         <Head>
-          <title>MrJokester</title>
+          <title>Game Bot</title>
           <meta name="description" content="Main Page" />
           <link rel="icon" href="/profile.png" />
         </Head>
