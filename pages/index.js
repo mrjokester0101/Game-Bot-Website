@@ -13,25 +13,20 @@ const Home = () => {
         </Head>
         <main className={styles.main}>
           <h1 className={styles.title}>
-             <Image className={styles.image} src="/title.png" alt="Profile Icon"/> MrJokester
+             <Image className={styles.image} src="/profile.png" alt="Profile Icon"/> Game Bot
           </h1>
           <p className={styles.description}>Main Page</p>
   
         <div className={styles.buttons}>
           <button
             className={styles.button}
-            onClick={() => window.location.href = 'https://mrjokester.vercel.app/'}>
+            onClick={() => window.location.href = 'https://discordgamebot.vercel.app/'}>
             <h2>Main Page</h2>
           </button>
           <button
             className={styles.button}
-            onClick={() => window.location.href = 'https://mrjokester.vercel.app/me'}>
-            <h2>About Me</h2>
-          </button>
-          <button
-            className={styles.button}
-            onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
-            <h2>BDFD Snippets</h2>
+            onClick={() => window.location.href = 'https://discordgamebot.vercel.app/bot'}>
+            <h2>About Game Bot</h2>
           </button>
         </div>
               
