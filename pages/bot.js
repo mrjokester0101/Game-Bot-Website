@@ -7,17 +7,17 @@ const Home = () => {
     <div className={styles.all}>
       <div className={styles.container}>
         <Head>
-          <title>MrJokester</title>
-          <meta name="description" content="About Me" />
+          <title>Game Bot</title>
+          <meta name="description" content="About Game Bot" />
           <link rel="icon" href="/profile.png" />
         </Head>
 
 
         <main className={styles.main}>
           <h1 className={styles.title}>
-             <Image className={styles.image} src="/title.png" alt="Profile Icon"/> MrJokester
+             <Image className={styles.image} src="/profile.png" alt="Profile Icon"/> Game Bot
           </h1>
-          <p className={styles.description}>About Me</p>
+          <p className={styles.description}>About Game Bot</p>
 
         <div className={styles.buttons}>
           <button
@@ -28,7 +28,7 @@ const Home = () => {
           <button
             className={styles.button}
             onClick={() => window.location.href = 'https://discordgamebot.vercel.app/bot'}>
-            <h2>About Me</h2>
+            <h2>About Game Bot</h2>
           </button>
         </div>
   
@@ -36,6 +36,7 @@ const Home = () => {
 <h2>1. Introduction</h2>
 <p>   • Name: Game Bot</p>
 <p>   • Has Slash Cmds: Yes</p>
+<p>   • Has Prefix Cmds: Yes</p>
 <p>   • Modmail: No</p>
 <p>   • Verified: No</p>
 <p>   • Designed with: BDScript</p>
