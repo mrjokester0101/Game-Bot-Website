@@ -32,7 +32,7 @@ const Home = () => {
           </button>
         </div>
   
-          <div className={styles.aboutme}>
+          <div className={styles.text}>
 <h2>1. Introduction</h2>
 <p>   • Name: Game Bot</p>
 <p>   • Has Slash Cmds: Yes</p>
